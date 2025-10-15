@@ -1,0 +1,24 @@
+.reviews{
+    background-color: rgb(12, 12, 12) !important;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+   
+   
+   
+  
+
+}
+.review-card{
+    border: 0.5px solid rgb(177, 144, 12) !important;
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+
+
+}

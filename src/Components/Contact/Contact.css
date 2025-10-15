@@ -1,0 +1,35 @@
+.container-contact{
+    text-align: center;
+    padding: 20px;
+      background-color: rgb(13, 13, 13) !important;
+    color: white;
+    justify-content: center;
+}
+.contact-card{
+    border: 0px solid rgb(167, 141, 8) !important;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+  
+    font-weight: bold;
+       /* background-color: rgb(5, 5, 5) !important; */
+    color:white !important;
+}
+ div .p{
+    font-size: 1.2rem;  
+    line-height: 1.6;
+    justify-content: flex-end;
+    font-weight: 20px;
+    background-color: rgb(12, 12, 12) !important;
+    color:white !important;
+    
+}
