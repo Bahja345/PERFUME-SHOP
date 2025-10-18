@@ -1,7 +1,4 @@
-
-
-
-nav{
+nav {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -9,23 +6,28 @@ nav{
     background-color: rgb(132, 115, 18) !important;
     color: black !important;
 }
-.header{
-        background-image: url('../../assets/Ishq.jpg'); 
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/Ishq.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1000px; 
-    width:1400px;
+    height: 100VH;
+    width: 100%;
     color: rgb(241, 241, 238) !important;
     display: flex;
     flex-direction: column;
-    padding:20px;
-  
+    padding: 20px;
+    align-items: flex-start;
+
     justify-content: flex-start !important;
-   
-   
+
+
 }
-.rounded{
-    border-radius: 50% !important;
-    border: 2px solid black !important;
+
+nav img {}
+
+.btn {
+    justify-content: center;
+
 }

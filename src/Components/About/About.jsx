@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import image1 from '../../assets/khamrah.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 const About = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  })
   return (
    
    <div className='h1' id="About">

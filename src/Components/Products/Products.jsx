@@ -55,7 +55,7 @@ const Products = () => {
 
         <div className='product-card col-md-3'>
 
-        <img src={image5} alt="Asad" className='img-fluid' />
+        <img src={image5} alt="Asad" className='img-fluid'  width={"3000px"} />
         <p style={{fontSize:"18px", textAlign:"center"}}>Asad</p>
           <span class="price">ksh1000</span> <br/>
         <button type="button" class="btn">Buy Now</button>
@@ -70,13 +70,13 @@ const Products = () => {
       </div>
       <div className='Products3 row text-center'>
         <div className='product-card col-md-3'>
-        <img src={image7} alt="Sheikh" className='img-fluid' />
+        <img src={image7} alt="Sheikh" className='img-fluid ' width={"350px"}/>
          <p style={{fontSize:"18px", textAlign:"center"}}>Sheikh</p>
           <span class="price">ksh3000</span> <br/>
        <button type="button" class="btn">Buy now</button>
         </div>  
      <div className='product-card col-md-3'>
-        <img src={image8} alt="Scandal" className='img-fluid' />
+        <img src={image8} alt="Scandal" className='img-fluid'  />
 <p style={{fontSize:"18px", textAlign:"center"}}>Scandal</p>
           <span class="price">ksh1700</span> <br/>
 <button type="button" class="btn">Buy Now</button>

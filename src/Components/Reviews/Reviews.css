@@ -1,24 +1,31 @@
 .reviews{
-    background-color: rgb(12, 12, 12) !important;
+    /* background-color: rgb(12, 12, 12) !important; */
     color: white;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
-
-   
-   
-   
-  
-
+    gap: 0px;
 }
-.review-card{
-    border: 0.5px solid rgb(177, 144, 12) !important;
-    padding: 20px;
-   
+/* .Container-reviews{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+ .review-card{
+    /* border: 0.1px solid rgb(148, 120, 10) !important; */
+    padding: 20px;   
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 8px rgba(255, 255, 2555, 0.4); 
+
+
+} 
+
+.reviews-card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
    
-
-
 }
